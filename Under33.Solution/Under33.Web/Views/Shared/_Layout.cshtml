@@ -5,10 +5,26 @@
     <title>Under 33</title>
     <link href="~/Content/styles.css" rel="stylesheet" />
 </head>
-    <body id="content_bg_repeat">
-        <img src="~/Content/images/under33_logo.png" />
-        <div>
-            @RenderBody()
+<body id="content_bg_repeat">
+    <header class="header-fixed">
+        <div class="header-limiter">
+            <img class="logo-img" src="~/Content/images/under33_logo.png" />
+            <nav>
+                <a href="#">Home</a>
+                <a href="#" class="selected">Dreams</a>
+                <a href="#">Ideas</a>
+                <a href="#">Change My Community</a>
+                <a href="#">Change the World</a>
+
+            </nav>
         </div>
-    </body>
+    </header>
+    <!-- You need this element to prevent the content of the page from jumping up -->
+    <div class="header-fixed-placeholder"></div>
+    <!-- The content of your page would go here. -->
+
+    <div>
+        @RenderBody()
+    </div>
+</body>
 </html>
