@@ -1,0 +1,27 @@
+header{
+    .navbar{
+        border-radius: 0;
+
+        &-default{
+            border: none;
+            background: $dark-grey;
+        }
+
+        &-brand{
+            height: auto;
+        }
+
+        &-centered-right{
+            position: absolute;
+            top: 50%;
+            right: 30px;
+            transform: translateY(-50%);
+        }
+
+        &-toggle{
+            .icon-bar{
+                background: $white;
+            }
+        }
+    }
+}

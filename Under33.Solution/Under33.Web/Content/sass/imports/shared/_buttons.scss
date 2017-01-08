@@ -1,0 +1,12 @@
+.link{
+    color: $white;
+    background: transparent;
+    text-decoration: none;
+
+    &:hover,
+    &:focus{
+        color: $green;
+        background: transparent;
+        text-decoration: none;
+    }
+}

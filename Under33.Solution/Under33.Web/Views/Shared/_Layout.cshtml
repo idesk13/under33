@@ -5,28 +5,42 @@
     <title>Under 33</title>
     @Styles.Render("~/bundles/css")
 </head>
-<body id="content_bg_repeat">
-    <header class="header-fixed">
-        <div class="header-limiter">
-            <img class="logo-img" src="~/Content/images/under33_logo.png" />
-            <nav>
-                <a href="#">Home</a>
-                <a href="#" class="selected">Dreams</a>
-                <a href="#">Ideas</a>
-                <a href="#">Change My Community</a>
-                <a href="#">Change the World</a>
 
-            </nav>
-        </div>
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topNav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="~/Content/images/under33_logo.png" alt="Under33 Logo" />
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="topNav">
+                    <ul class="nav navbar-nav navbar-centered-right">
+                        <li><a href="#" class="link">Home</a></li>
+                        <li><a href="#" class="link">Dreams</a></li>
+                        <li><a href="#" class="link">Ideas</a></li>
+                        <li><a href="#" class="link">Change My Community</a></li>
+                        <li><a href="#" class="link">Change the World</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <!-- You need this element to prevent the content of the page from jumping up -->
-    <div class="header-fixed-placeholder"></div>
-    <!-- The content of your page would go here. -->
 
-    <div>
-        @RenderBody()
-    </div>
+    <main>
+         @RenderBody()
+    </main>
+
+    <footer>
+    </footer>
 
     @Scripts.Render("~/bundles/js")
 </body>
-</html>
