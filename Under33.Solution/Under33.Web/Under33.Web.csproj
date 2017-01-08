@@ -108,7 +108,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="App_Start\App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -124,89 +124,11 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\images\active.png" />
-    <Content Include="Content\images\ajax-loader.gif" />
-    <Content Include="Content\images\bg.jpg" />
-    <Content Include="Content\images\border.gif" />
-    <Content Include="Content\images\bot_bor.png" />
-    <Content Include="Content\images\b_c.png" />
-    <Content Include="Content\images\b_l.png" />
-    <Content Include="Content\images\b_r.png" />
-    <Content Include="Content\images\close_btn.png" />
-    <Content Include="Content\images\close_btn_h.png" />
-    <Content Include="Content\images\column_razd.png" />
-    <Content Include="Content\images\com.jpg" />
-    <Content Include="Content\images\com.png" />
-    <Content Include="Content\images\contact_but.png" />
-    <Content Include="Content\images\content_bg_repeat.png" />
-    <Content Include="Content\images\content_bottom.png" />
-    <Content Include="Content\images\content_box2_bg.png" />
-    <Content Include="Content\images\content_box2_bottom.png" />
-    <Content Include="Content\images\content_box2_top.png" />
-    <Content Include="Content\images\content_top.png" />
-    <Content Include="Content\images\c_l.png" />
-    <Content Include="Content\images\c_r.png" />
-    <Content Include="Content\images\date.gif" />
-    <Content Include="Content\images\date.jpg" />
-    <Content Include="Content\images\footer_top_border.png" />
-    <Content Include="Content\images\gallery_big1.jpg" />
-    <Content Include="Content\images\gallery_big2.jpg" />
-    <Content Include="Content\images\gallery_big3.jpg" />
-    <Content Include="Content\images\gallery_big4.jpg" />
-    <Content Include="Content\images\gallery_big5.jpg" />
-    <Content Include="Content\images\gallery_big6.jpg" />
-    <Content Include="Content\images\header1.jpg" />
-    <Content Include="Content\images\header2.jpg" />
-    <Content Include="Content\images\header3.jpg" />
-    <Content Include="Content\images\header4.jpg" />
-    <Content Include="Content\images\header5.jpg" />
-    <Content Include="Content\images\header6.jpg" />
-    <Content Include="Content\images\img1.jpg" />
-    <Content Include="Content\images\img14.jpg" />
-    <Content Include="Content\images\img15.jpg" />
-    <Content Include="Content\images\img16.jpg" />
-    <Content Include="Content\images\img2.jpg" />
-    <Content Include="Content\images\img3.jpg" />
-    <Content Include="Content\images\img31.jpg" />
-    <Content Include="Content\images\img32.jpg" />
-    <Content Include="Content\images\img33.jpg" />
-    <Content Include="Content\images\img34.jpg" />
-    <Content Include="Content\images\img35.jpg" />
-    <Content Include="Content\images\img36.jpg" />
-    <Content Include="Content\images\img4.jpg" />
-    <Content Include="Content\images\input_bg.jpg" />
-    <Content Include="Content\images\link1.png" />
-    <Content Include="Content\images\link2.png" />
-    <Content Include="Content\images\link3.png" />
-    <Content Include="Content\images\link4.png" />
-    <Content Include="Content\images\link_out.png" />
-    <Content Include="Content\images\link_out_h.png" />
-    <Content Include="Content\images\location.jpg" />
-    <Content Include="Content\images\ls.gif" />
-    <Content Include="Content\images\menu_bg.png" />
-    <Content Include="Content\images\mess_text.jpg" />
-    <Content Include="Content\images\next.png" />
-    <Content Include="Content\images\next_h.png" />
-    <Content Include="Content\images\pic1.jpg" />
-    <Content Include="Content\images\pic2.jpg" />
-    <Content Include="Content\images\pic3.jpg" />
-    <Content Include="Content\images\play.png" />
-    <Content Include="Content\images\play_h.png" />
-    <Content Include="Content\images\prev.png" />
-    <Content Include="Content\images\prev_h.png" />
-    <Content Include="Content\images\razd_h.gif" />
-    <Content Include="Content\images\spis_bot.gif" />
-    <Content Include="Content\images\style.css" />
-    <Content Include="Content\images\title.png" />
-    <Content Include="Content\images\t_c.png" />
-    <Content Include="Content\images\t_l.png" />
-    <Content Include="Content\images\t_r.png" />
-    <Content Include="Content\images\user.png" />
+    <Content Include="Content\images\under33_logo.png" />
     <Content Include="Content\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\Dev.Under33.pubxml" />
@@ -220,12 +142,6 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
-    <Content Include="Views\about.html" />
-    <Content Include="Views\blog.html" />
-    <Content Include="Views\contact.html" />
-    <Content Include="Views\gallery.html" />
-    <Content Include="Views\index.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -248,7 +164,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
