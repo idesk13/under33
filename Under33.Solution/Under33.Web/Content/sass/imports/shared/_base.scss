@@ -16,7 +16,15 @@ body {
 }
 
 .hero{
-    background: transparent;
+    background-image: url("/Content/images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .hero-inner{
+        background: rgba(0,0,0,0.75);
+        padding: 30px;
+    }
 
     .sub-title{
         color: $grey;

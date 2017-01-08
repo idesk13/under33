@@ -127,6 +127,7 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="Content\css\global.css" />
+    <Content Include="Content\images\hero.jpg" />
     <Content Include="Content\images\under33_logo.png" />
     <Content Include="Content\sass\imports\vendor\bootstrap\bootstrap.css" />
     <Content Include="Content\sass\imports\vendor\bootstrap\bootstrap.min.css" />
