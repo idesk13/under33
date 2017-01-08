@@ -1,0 +1,14 @@
+{
+  "name": "gulp-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "development": "gulp development",
+    "production": "gulp production"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
