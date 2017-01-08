@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Under 33</title>
-    <link href="~/Content/styles.css" rel="stylesheet" />
+    @Styles.Render("~/bundles/css")
 </head>
 <body id="content_bg_repeat">
     <header class="header-fixed">
@@ -26,5 +26,7 @@
     <div>
         @RenderBody()
     </div>
+
+    @Scripts.Render("~/bundles/js")
 </body>
 </html>

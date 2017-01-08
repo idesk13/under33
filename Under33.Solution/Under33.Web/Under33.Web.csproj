@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -109,7 +110,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Start\App_Data\" />
+    <Folder Include="Content\fonts\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\app\components\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -122,26 +125,34 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include=".gitignore" />
+    <Content Include="Content\css\global.css" />
     <Content Include="Content\images\under33_logo.png" />
-    <Content Include="Content\styles.css" />
+    <Content Include="Content\sass\imports\vendor\bootstrap\bootstrap.css" />
+    <Content Include="Content\sass\imports\vendor\bootstrap\bootstrap.min.css" />
+    <Content Include="Content\css\styles.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="package.json" />
+    <Content Include="Content\css\.gitkeep" />
+    <Content Include="Content\css\global.css.map" />
+    <Content Include="Content\sass\global.scss" />
+    <Content Include="Content\sass\imports\components\.gitkeep" />
+    <Content Include="Content\sass\imports\mixins\_typography.scss" />
+    <Content Include="Content\sass\imports\mixins\_variables.scss" />
+    <Content Include="Content\sass\imports\pages\.gitkeep" />
+    <Content Include="Content\sass\imports\pages\_home.scss" />
+    <Content Include="Content\sass\imports\shared\_base.scss" />
+    <Content Include="Content\sass\imports\shared\_buttons.scss" />
+    <Content Include="Content\sass\imports\shared\_footer.scss" />
+    <Content Include="Content\sass\imports\shared\_header.scss" />
+    <Content Include="Content\sass\imports\vendor\bootstrap\config.json" />
+    <Content Include="Content\sass\_app.scss" />
     <None Include="Properties\PublishProfiles\Dev.Under33.pubxml" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <Content Include="Scripts\lib\jquery-1.3.2.min.js" />
-    <Content Include="Scripts\lib\jquery.js" />
-    <Content Include="Scripts\lib\jquery.roundabout.js" />
-    <Content Include="Scripts\lib\pirobox.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
+    <Content Include="gulpfile.js" />
+    <Content Include="Scripts\app\main.js" />
+    <Content Include="Scripts\vendor\bootstrap\bootstrap.min.js" />
+    <Content Include="Scripts\vendor\jquery\jquery-3.1.1.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -156,13 +167,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Workflow-DEV.bat" />
+    <Content Include="Workflow-PROD.bat" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
