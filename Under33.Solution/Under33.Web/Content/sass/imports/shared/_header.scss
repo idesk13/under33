@@ -2,9 +2,13 @@ header{
     .navbar{
         border-radius: 0;
 
+        &-header{
+            position: relative;
+        }
+
         &-default{
             border: none;
-            background: $dark-grey;
+            background: $darker-grey;
         }
 
         &-brand{
@@ -24,6 +28,11 @@ header{
         }
 
         &-toggle{
+            position: absolute;
+            right:10px;
+            margin: 0;
+            top:50%;
+            transform: translateY(-50%);
             .icon-bar{
                 background: $white;
             }

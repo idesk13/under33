@@ -9,3 +9,34 @@ Font faces
 //     font-weight: 400;
 //     font-style: normal;
 // }
+
+html{
+    font-size: 10px;
+}
+
+h1{
+    font-size: 6.4rem;
+    margin-top:0;
+    margin-bottom: 1.6rem;
+}
+
+h2{
+    margin-top:0;
+    margin-bottom: 1.6rem;
+}
+
+a, p, ul{
+    font-size: 1.6rem;
+}
+
+@media (max-width: 991px){
+    html{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 8px;
+    }
+}

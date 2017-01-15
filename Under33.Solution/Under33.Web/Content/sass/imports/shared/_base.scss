@@ -2,17 +2,10 @@
 Main layout styling
 *************************************/
 
-html {
-  font-size: 14px;
-}
 
 body {
-    font-size: 1rem;
+    font-size: 1,6rem;
     color:$white;
-    background: #91e842;
-    background: linear-gradient(to bottom, rgba(145,232,66,1) 0%, rgba(210,255,82,1) 100%);
-    background-repeat: no-repeat;
-    min-height: 100vh;
 }
 
 .hero{
@@ -28,5 +21,68 @@ body {
 
     .sub-title{
         color: $grey;
+    }
+}
+
+.spacer-top-xl{
+    margin-top: 6.4rem;
+}
+
+.spacer-top-l{
+    margin-top: 3.2rem;
+}
+
+.spacer-top-m{
+    margin-top: 1.6rem;
+}
+
+.spacer-top-s{
+    margin-top: 0.8rem;
+}
+
+.spacer-top-xs{
+    margin-top: 0.4rem;
+}
+
+.spacer-bottom-xl{
+    margin-bottom: 6.4rem;
+}
+
+.spacer-bottom-l{
+    margin-bottom: 3.2rem;
+}
+
+.spacer-bottom-m{
+    margin-bottom: 1.6rem;
+}
+
+.spacer-bottom-s{
+    margin-bottom: 0.8rem;
+}
+
+.spacer-bottom-xs{
+    margin-bottom: 0.4rem;
+}
+
+.center-block{
+    display:block;
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.board{
+    background-color: $green;
+    color: $white;
+    padding: 6.4rem 3.2rem;
+
+    &.light{
+        background-color: $light-grey;
+        color: $darker-grey;
+    }
+
+    &.dark{
+        background-color: $darker-grey;
+        color: $light-grey;
     }
 }
