@@ -3,6 +3,7 @@
     background: transparent;
     text-decoration: none;
     outline: none;
+    cursor: pointer;
 
     &:hover,
     &:focus{
@@ -10,6 +11,11 @@
         background: transparent;
         text-decoration: none;
         outline: none;
+    }
+
+    &.primary{
+        color: $green;
+        font-weight: 700;
     }
 }
 

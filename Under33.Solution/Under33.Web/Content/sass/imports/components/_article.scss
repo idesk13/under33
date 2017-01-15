@@ -1,0 +1,15 @@
+.article{
+    display:flex;
+
+    &__preview-img{
+        flex: 1 1 30%;
+    }
+
+    &__short-desc{
+        flex: 1 1 70%;
+    }
+
+    &__info{
+
+    }
+}
