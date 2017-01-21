@@ -148,6 +148,7 @@
     <Content Include="Content\sass\imports\shared\_header.scss" />
     <Content Include="Content\sass\imports\vendor\bootstrap\config.json" />
     <Content Include="Content\sass\_app.scss" />
+    <Content Include="Content\sass\imports\vendor\bootstrap\_bootstrap.scss" />
     <None Include="Properties\PublishProfiles\Dev.Under33.pubxml" />
     <Content Include="gulpfile.js" />
     <Content Include="Scripts\app\main.js" />
