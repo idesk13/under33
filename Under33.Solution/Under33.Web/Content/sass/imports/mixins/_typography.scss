@@ -10,42 +10,56 @@ Font faces
 //     font-style: normal;
 // }
 
-html{
+html {
     font-size: 10px;
 }
 
-body{
+body {
     font-family: 'Roboto';
     font-weight: 400;
 }
 
-h1{
+h1 {
+    font-size: 9rem;
+    margin-top: 0;
+    margin-bottom: 1.6rem;
+    font-weight: 700;
+}
+
+h2 {
     font-size: 6.4rem;
-    margin-top:0;
+    margin-top: 0;
     margin-bottom: 1.6rem;
     font-weight: 700;
 }
 
-h2{
+h3 {
     font-size: 3.6rem;
-    margin-top:0;
+    margin-top: 0;
     margin-bottom: 1.6rem;
     font-weight: 700;
 }
 
-a, p, ul{
+a,
+p,
+ul {
     font-size: 1.6rem;
     line-height: 2.4rem;
 }
 
-@media (max-width: 991px){
-    html{
+
+.subtitle{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+@media all and (max-width: $tablet) {
+    html {
         font-size: 9px;
     }
 }
-
-@media (max-width: 768px){
-    html{
+@media all and (max-width: $mobile) {
+    html {
         font-size: 8px;
     }
 }

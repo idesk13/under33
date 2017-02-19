@@ -11,6 +11,7 @@ namespace WebApplication1
             bundles.Add(new ScriptBundle("~/bundles/js").Include(
                         "~/Scripts/vendor/jquery/jquery-3.1.1.min.js",
                         "~/Scripts/vendor/bootstrap/bootstrap.min.js",
+                        "~/Scripts/vendor/remodal/remodal.min.js",
                         "~/Scripts/app/main.js"));
 
             bundles.Add(new StyleBundle("~/bundles/css").Include(
