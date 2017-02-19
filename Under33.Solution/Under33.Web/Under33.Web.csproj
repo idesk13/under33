@@ -149,11 +149,15 @@
     <Content Include="Content\sass\imports\vendor\bootstrap\config.json" />
     <Content Include="Content\sass\_app.scss" />
     <Content Include="Content\sass\imports\vendor\bootstrap\_bootstrap.scss" />
+    <Content Include="Content\sass\imports\shared\_utility.scss" />
+    <Content Include="Content\sass\imports\vendor\remodal\_remodal-default-theme.scss" />
+    <Content Include="Content\sass\imports\vendor\remodal\_remodal.scss" />
     <None Include="Properties\PublishProfiles\Dev.Under33.pubxml" />
     <Content Include="gulpfile.js" />
     <Content Include="Scripts\app\main.js" />
     <Content Include="Scripts\vendor\bootstrap\bootstrap.min.js" />
     <Content Include="Scripts\vendor\jquery\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\vendor\remodal\remodal.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
