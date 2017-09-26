@@ -1,0 +1,29 @@
+/*************************************
+This is a partial which contains all SASS files developed for the project.
+*************************************/
+
+//Vendor
+@import "imports/vendor/bootstrap/_bootstrap";
+@import "imports/vendor/remodal/_remodal";
+@import "imports/vendor/remodal/_remodal-default-theme";
+
+//Mixins
+@import "imports/mixins/_variables";
+@import "imports/mixins/_typography";
+
+
+//Shared
+@import "imports/shared/_utility";
+@import "imports/shared/_base";
+@import "imports/shared/_header";
+@import "imports/shared/_footer";
+@import "imports/shared/_buttons";
+
+
+// Components
+@import "imports/components/_hero";
+@import "imports/components/_article";
+
+
+//Pages
+@import "imports/pages/_home";

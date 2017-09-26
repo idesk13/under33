@@ -1,0 +1,32 @@
+.link{
+    color: $white;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+
+    &:hover,
+    &:focus{
+        color: $green;
+        background: transparent;
+        text-decoration: none;
+        outline: none;
+    }
+
+    &.primary{
+        color: $green;
+        font-weight: 700;
+    }
+}
+
+.btn{
+    border-radius: 2px;
+    border: none;
+    &-primary{
+        border: none;
+
+        &:hover{
+
+        }
+    }
+}

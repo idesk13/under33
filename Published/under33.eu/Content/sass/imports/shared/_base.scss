@@ -1,0 +1,45 @@
+/*************************************
+Main layout styling
+*************************************/
+
+body {
+    font-size: 1.6rem;
+    color:$white;
+    padding-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.1s ease;
+    h1,h2,h3,h4,p{
+        display: inline-block;
+    }
+}
+
+.board{
+    padding: 6.4rem 3.2rem;
+
+    &.green{
+        background-color: $green;
+
+        h1,h2,h3,p,span{
+            color: $white;
+        }
+    }
+
+    &.light{
+        background-color: $light-grey;
+
+        h1,h2,h3,p,span{
+            color: $darker-grey;
+        }
+    }
+
+    &.dark{
+        background-color: $darker-grey;
+
+        h1,h2,h3,p,span{
+            color: $light-grey;
+        }
+    }
+}

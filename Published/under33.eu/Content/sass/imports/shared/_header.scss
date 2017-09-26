@@ -1,0 +1,77 @@
+header {
+    .navbar {
+        border-radius: 0;
+
+        &-header {
+            position: relative;
+        }
+
+        &-default {
+            border: none;
+            background: $darker-grey;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        &-brand {
+            height: auto;
+            color: $white;
+            font-family: 'Roboto';
+            font-size: 2.5rem;
+            font-weight: 700;
+            cursor: pointer;
+
+            &:hover {
+                color: $green;
+            }
+        }
+
+        &-nav {
+            float: right;
+            @media all and (max-width: $mobile) {
+                float: none;
+            }
+        }
+
+        &-link {
+            color: $white;
+            background: transparent;
+            text-decoration: none;
+            outline: none;
+            cursor: pointer;
+
+            &:focus,
+            &:hover {
+                color: $white;
+                background: $green;
+                text-decoration: none;
+                outline: none;
+            }
+        }
+
+        &-centered-right {
+            position: absolute;
+            top: 50%;
+            right: 30px;
+            transform: translateY(-50%);
+            @media (max-width: 768px) {
+                position: static;
+                transform: none;
+            }
+        }
+
+        &-toggle {
+            position: absolute;
+            right: 10px;
+            margin: 0;
+            top: 50%;
+            transform: translateY(-50%);
+
+            .icon-bar {
+                background: $white;
+            }
+        }
+    }
+}
